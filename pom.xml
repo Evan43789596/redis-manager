@@ -2,15 +2,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.evan</groupId>
-    <artifactId>redis-admin</artifactId>
+    <artifactId>redis-manager</artifactId>
     <version>0.0.2.Beta2-SNAPSHOT</version>
     <packaging>war</packaging>
 
-    <name>redis admin</name>
-    <description>redis admin</description>
+    <name>redis manager</name>
+    <description>redis manager</description>
 	
 	<scm>
-		<developerConnection>scm:git:ssh://git@github.com/evan/redis-admin.git</developerConnection>
+		<developerConnection>scm:git:ssh://git@github.com/evan/redis-manager.git</developerConnection>
 	  <tag>HEAD</tag>
   </scm>
 	
@@ -115,7 +115,7 @@
 					<!-- 
 					<arguments>-P release,sonatype-oss-release,full,no-osgi</arguments>
 					 -->
-					<tagNameFormat>redis-admin-@{project.version}</tagNameFormat>
+					<tagNameFormat>redis-manager-@{project.version}</tagNameFormat>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -128,7 +128,7 @@
                 </configuration>
             </plugin>
 		</plugins>
-		<finalName>redis-admin</finalName>
+		<finalName>redis-manager</finalName>
 	</build>
 	
     <dependencies>

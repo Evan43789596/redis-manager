@@ -27,7 +27,7 @@ public abstract class RedisApplication implements Constant{
 	
 	public static volatile RefreshModeEnum refreshMode = RefreshModeEnum.manually;
 	public static volatile ShowTypeEnum showType = ShowTypeEnum.show;
-	public static String BASE_PATH = "/redis-admin";
+	public static String BASE_PATH = "/redis-manager";
 	
 	protected volatile Semaphore limitUpdate = new Semaphore(1);
 	protected static final int LIMIT_TIME = 3; //unit : second

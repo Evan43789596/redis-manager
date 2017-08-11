@@ -1,5 +1,5 @@
-# redis-admin [![Build Status](https://travis-ci.org/evan/redis-admin.svg?branch=master)](https://travis-ci.org/evan/redis-admin)
-[![GitHub release](https://img.shields.io/badge/release-download-orange.svg)](https://github.com/evan/redis-admin/releases)
+# redis-manager [![Build Status](https://travis-ci.org/evan/redis-manager.svg?branch=master)](https://travis-ci.org/evan/redis-manager)
+[![GitHub release](https://img.shields.io/badge/release-download-orange.svg)](https://github.com/evan/redis-manager/releases)
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
 This is a redis client web tool written based on Java EE and Jedis. It's my objective to build the most convenient redis client web tool in the world. In the first place, it will facilitate in editing redis data, such as: add, update, delete, search, cut, copy, paste etc.
@@ -21,9 +21,9 @@ This is a redis client web tool written based on Java EE and Jedis. It's my obje
 
 ##  Screenshots
 
-![Showcase](http://evan.github.io/img/redis-admin/0.0.2alpha2.02.png)
+![Showcase](http://evan.github.io/img/redis-manager/0.0.2alpha2.02.png)
 
-![Showcase](http://evan.github.io/img/redis-admin/0.0.2alpha2.01.png)
+![Showcase](http://evan.github.io/img/redis-manager/0.0.2alpha2.01.png)
 
 ##  Quick Start
 
@@ -58,12 +58,12 @@ manager.password=admin
 `Third Step`: deploy project
 
 run maven command : mvn clean package
-you will found war in 'target/redis-admin.war'
+you will found war in 'target/redis-manager.war'
 move war to '../tomcat/wabapps/.' and start tomcat 
 
-`Last Step`: visit redis-admin
+`Last Step`: visit redis-manager
 
-open your brower and visit: http://localhost:8080/redis-admin/redis
+open your brower and visit: http://localhost:8080/redis-manager/redis
 
 then, enter username and password what you set in file 'application.properties'
 
@@ -72,10 +72,10 @@ then, enter username and password what you set in file 'application.properties'
 
 **Please Note: trunk is current development branch.**
 
-* [**Releases-Notes**](https://github.com/evan/redis-admin/wiki/Recent-Releases-Notes)
+* [**Releases-Notes**](https://github.com/evan/redis-manager/wiki/Recent-Releases-Notes)
 
 ##  FAQ
 
-* [**FAQ**](https://github.com/evan/redis-admin/wiki/FAQ)
+* [**FAQ**](https://github.com/evan/redis-manager/wiki/FAQ)
 
 ![img-source-from-https://github.com/docker/dockercraft](https://github.com/docker/dockercraft/raw/master/docs/img/contribute.png?raw=true)
